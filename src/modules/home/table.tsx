@@ -169,62 +169,6 @@ const modelData = [
         silver: 5,
         bronze: 0
     },
-    {
-        name: "Zephyr-7B",
-        provider: "Hugging Face",
-        license: "Apache 2.0",
-        parameters: "7.00B",
-        contextWindow: 8192,
-        trainingTime: "20 days (64 GPUs)",
-        size: "13.74GB",
-        throughput: "1300",
-        latency: "52",
-        gold: 70,
-        silver: 58,
-        bronze: 42
-    },
-    {
-        name: "Phi-1.5",
-        provider: "Microsoft",
-        license: "Proprietary",
-        parameters: "2.70B",
-        contextWindow: 2048,
-        trainingTime: "12 days (32 GPUs)",
-        size: "2.45GB",
-        throughput: "1400",
-        latency: "52",
-        gold: 65,
-        silver: 55,
-        bronze: 40
-    },
-    {
-        name: "Mistral-7B",
-        provider: "Mistral AI",
-        license: "Apache 2.0",
-        parameters: "7.00B",
-        contextWindow: 8192,
-        trainingTime: "15 days (128 GPUs)",
-        size: "13.0GB",
-        throughput: "1400",
-        latency: "55",
-        gold: 60,
-        silver: 52,
-        bronze: 38
-    },
-    {
-        name: "ShearedLlama-2.7B",
-        provider: "Hugging Face",
-        license: "Apache 2.0",
-        parameters: "2.70B",
-        contextWindow: 2048,
-        trainingTime: "12 days (32 GPUs)",
-        size: "5.0GB",
-        throughput: "1300",
-        latency: "54",
-        gold: 55,
-        silver: 48,
-        bronze: 35
-    }
 ];
 
 const MedalTable = () => {
