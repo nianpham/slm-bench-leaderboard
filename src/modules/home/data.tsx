@@ -53,7 +53,23 @@ const DataAnalysisSection = () => {
                                 color: "#4b5563",
                                 marginBottom: "1.5rem"
                             }}>
-                            Small Language Models (SLMs) have gained significant traction in both research and industry, with continuous advancements over the years. Since the release of GPT-Neo-1.3B in 2021, the field has seen a steady stream of new models, each contributing to the growing capabilities of lightweight AI systems. By late 2022 and throughout 2023, notable models such as Dolly-v2, Pythia, LLaMA-2, TinyLlama, and Mistral emerged, showcasing improvements in efficiency and performance. The trend continued with the introduction of models like Zephyr, ShearedLlama, Gemma, and Phi, marking the increasing competitiveness in the SLM landscape. As development progresses, upcoming releases, including Open-Llama-3B expected in mid-2024, indicate that SLMs will continue to evolve, playing a crucial role in AI research and real-world applications.
+                            Small Language Models (SLMs) have gained significant traction in both research and industry, with continuous advancements in recent years. Since the release of GPT-Neo-1.3B in 2021, the field has witnessed a steady stream of new models, each contributing to the expanding capabilities of lightweight AI systems.
+                        </p>
+                        <p
+                            className='text-justify'
+                            style={{
+                                color: "#4b5563",
+                                marginBottom: "1.5rem"
+                            }}>
+                            By late 2022 and throughout 2023, notable models such as <strong>Dolly-v2</strong>, <strong>Pythia</strong>, <strong>LLaMA-2</strong>, <strong>TinyLlama</strong>, and <strong>Mistral</strong> emerged, demonstrating substantial improvements in performance and efficiency. This momentum continued with the introduction of models like <strong>Zephyr</strong>, <strong>ShearedLLaMA</strong>, <strong>Gemma</strong>, and <strong>Phi</strong>, reflecting growing competitiveness in the SLM landscape.
+                        </p>
+                        <p
+                            className='text-justify'
+                            style={{
+                                color: "#4b5563",
+                                marginBottom: "1.5rem"
+                            }}>
+                            More recently, the evolution of SLMs has accelerated with the release of <strong>Open-LLaMA-3B</strong>, <strong>LLaMA-3-8B</strong>, <strong>Gemma-3-1B</strong>, and <strong>Phi-3-3.8B</strong> between mid-2024 and early 2025. These new models mark a significant step forward in the development of compact yet powerful language models. As innovation continues, SLMs are expected to play an increasingly vital role in AI research and real-world applications.
                         </p>
                         <div style={{ position: "relative" }}>
                             <div style={{
@@ -68,7 +84,7 @@ const DataAnalysisSection = () => {
                                 paddingBottom: "1rem"
                             }}>
                                 <img
-                                    src="https://res.cloudinary.com/farmcode/image/upload/v1740134507/other/k9iikxhqqy1nhbgjm83c.png"
+                                    src="https://res.cloudinary.com/farmcode/image/upload/v1748153303/other/rhey1axw1ku9lsqgeawz.png"
                                     alt="alt"
                                     style={{
                                         objectFit: "contain",
@@ -187,7 +203,7 @@ const DataAnalysisSection = () => {
                                 paddingBottom: "1rem"
                             }}>
                                 <img
-                                    src="https://res.cloudinary.com/farmcode/image/upload/v1741449836/other/zisxl0jmleay6trqk2ql.png"
+                                    src="https://res.cloudinary.com/farmcode/image/upload/v1748152920/other/ryc7yjzxlkwxncxgwk5s.png"
                                     alt="alt"
                                     style={{
                                         objectFit: "contain",
@@ -233,45 +249,6 @@ const DataAnalysisSection = () => {
                                     }}
                                 />
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div style={{
-                    backgroundColor: "white",
-                    borderRadius: "0.5rem",
-                    padding: "1.5rem",
-                    boxShadow: "0 1px 2px 0 rgba(0, 0, 0, 0.05)",
-                    border: "1px solid #f3f4f6"
-                }}>
-                    <h3 style={{
-                        fontSize: "1.125rem",
-                        fontWeight: "700",
-                        marginBottom: "1rem"
-                    }}>Analysis of Runtime Cost in Small Language Models</h3>
-                    <p
-                        className='text-justify'
-                        style={{
-                            color: "#4b5563",
-                            marginBottom: "1.5rem"
-                        }}>
-                        The inference latency and memory consumption of Small Language Models (SLMs) scale predictably with model size, with larger models incurring higher runtime costs. While latency during the prefill stage varies significantly across architectures, the decode-stage latency follows a more linear trend relative to model size. Metrics such as fine-tuning time, energy consumption, and computational complexity highlight the trade-offs between efficiency and performance. The results emphasize that while larger models like Mistral-7B and Zephyr-7B demonstrate higher effectiveness, they also demand more computational resources. This analysis provides critical insights for balancing model accuracy and efficiency in real-world AI applications.
-                    </p>
-                    <div style={{ position: "relative" }}>
-                        <div style={{
-                            borderRadius: "0.5rem",
-                            display: "flex",
-                            alignItems: "center",
-                            justifyContent: "center",
-                            paddingTop: "1rem",
-                            paddingBottom: "1rem"
-                        }}>
-                            <img
-                                src="https://res.cloudinary.com/farmcode/image/upload/v1740134334/other/qapfo9byglfizip4bsrk.png"
-                                alt="alt"
-                                style={{
-                                    objectFit: "contain",
-                                }}
-                            />
                         </div>
                     </div>
                 </div>
