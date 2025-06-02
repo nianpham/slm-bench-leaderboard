@@ -212,7 +212,7 @@ const DataAnalysisSection = () => {
                             </div>
                         </div>
                     </div>
-                    <div style={{
+                    {/* <div style={{
                         backgroundColor: "white",
                         borderRadius: "0.5rem",
                         padding: "1.5rem",
@@ -250,7 +250,7 @@ const DataAnalysisSection = () => {
                                 />
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>

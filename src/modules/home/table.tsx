@@ -2,6 +2,20 @@ import React from 'react';
 
 const modelData = [
     {
+        name: "Llama-3.2-1B",
+        provider: "Meta",
+        license: "Apache 2.0",
+        parameters: "1.24B",
+        contextWindow: 128000,
+        trainingTime: "Unknown",
+        size: "5.8GB",
+        throughput: "1250",
+        latency: "55",
+        gold: 80,
+        silver: 65,
+        bronze: 50
+    },
+    {
         name: "GPT-Neo-1.3B",
         provider: "EleutherAI",
         license: "Apache 2.0",
@@ -179,7 +193,7 @@ const modelData = [
         size: "5.8GB",
         throughput: "1250",
         latency: "55",
-        gold: 0,
+        gold: 15,
         silver: 0,
         bronze: 0
     },
@@ -193,21 +207,7 @@ const modelData = [
         size: "5.8GB",
         throughput: "1250",
         latency: "55",
-        gold: 0,
-        silver: 0,
-        bronze: 0
-    },
-    {
-        name: "Llama-3.2-1B",
-        provider: "Meta",
-        license: "Apache 2.0",
-        parameters: "1.24B",
-        contextWindow: 128000,
-        trainingTime: "Unknown",
-        size: "5.8GB",
-        throughput: "1250",
-        latency: "55",
-        gold: 0,
+        gold: 10,
         silver: 0,
         bronze: 0
     },
@@ -215,6 +215,20 @@ const modelData = [
 
 const modelDataA10G = [
     {
+        name: "Llama-3.2-1B",
+        provider: "Meta",
+        license: "Apache 2.0",
+        parameters: "1.24B",
+        contextWindow: 128000,
+        trainingTime: "Unknown",
+        size: "5.8GB",
+        throughput: "1250",
+        latency: "55",
+        gold: 80,
+        silver: 65,
+        bronze: 50
+    },
+    {
         name: "GPT-Neo-1.3B",
         provider: "EleutherAI",
         license: "Apache 2.0",
@@ -392,7 +406,7 @@ const modelDataA10G = [
         size: "5.8GB",
         throughput: "1250",
         latency: "55",
-        gold: 0,
+        gold: 15,
         silver: 0,
         bronze: 0
     },
@@ -406,21 +420,7 @@ const modelDataA10G = [
         size: "5.8GB",
         throughput: "1250",
         latency: "55",
-        gold: 0,
-        silver: 0,
-        bronze: 0
-    },
-    {
-        name: "Llama-3.2-1B",
-        provider: "Meta",
-        license: "Apache 2.0",
-        parameters: "1.24B",
-        contextWindow: 128000,
-        trainingTime: "Unknown",
-        size: "5.8GB",
-        throughput: "1250",
-        latency: "55",
-        gold: 0,
+        gold: 10,
         silver: 0,
         bronze: 0
     },
